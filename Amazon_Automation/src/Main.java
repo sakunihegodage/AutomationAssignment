@@ -14,7 +14,7 @@ public class Main {
     @Before
     public void setUp(){
         // Set the path to the ChromeDriver executable
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\sdila\\Desktop\\Driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\sakuni\\Desktop\\Driver\\chromedriver.exe");
         //Initialize the ChromeDriver
         driver = new ChromeDriver();
         // Maximize the browser window
